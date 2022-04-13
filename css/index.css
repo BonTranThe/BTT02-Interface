@@ -1,0 +1,521 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container{
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  z-index: 0;
+}
+
+.group-01, .group-02{
+  width: 100%;
+}
+
+img{
+  object-fit: cover;
+}
+.group-01 .background{
+  width: 100%;
+  height: 41.05rem;
+  z-index: 1;
+}
+.group-01 .inner-bg{
+  z-index: 2;
+}
+.group-01 .logo{
+  position: absolute;
+  left: 4.5rem;
+  top: 2.6rem;
+  transition: 0.5s all;
+}
+.group-01 .logo:hover{
+  transform: scale(1.05);
+}
+.group-01 .foods{
+  position: absolute;
+  left: -2.3rem;
+  top: 16rem;
+}
+.group-01 .bl-title{
+  position: absolute;
+  left: 42.5rem;
+  top: 18rem;
+}
+.group-01 .dog{
+  position: absolute;
+  right: 0rem;
+  top: 10.42rem;
+}
+.group-01 .emotion{
+  position: absolute;
+  left: 40rem;
+  top: 18rem;
+}
+
+.group-01 .sb-title-01{
+  position: absolute;
+  left: 46rem;
+  top: 10rem;
+}
+
+.group-01 .sb-title-02{
+  position: absolute;
+  left: 46rem;
+  top: 21rem;
+}
+
+.group-01 ul{
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 3rem;
+  right: 4rem;
+}
+
+.group-01 ul li{
+  margin-right: 4.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2rem;
+  transition: 0.5s all;
+}
+.group-01 ul li:hover{
+  transform: scale(1.05);
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/*Group-02*/
+.group-02 .inner-bg{
+  z-index: 2;
+}
+
+.group-02 .dog-2{
+  position: absolute;
+  top: 48rem;
+}
+
+.group-02 .emotion{
+  position: absolute;
+  top: 78rem;
+  left: 5rem;
+}
+.group-02 .foods-2{
+  position: absolute;
+  top: 50rem;
+  right: 4rem;
+}
+
+.group-02 .our-story{
+  position: absolute;
+  left: 14rem;
+  top: 49rem
+}
+
+.group-02 .our-story .our{
+  color: rgb(100, 34, 34);
+  font-weight: 600;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+.group-02 .our-story .story{
+  color: rgb(62, 160, 226);
+  font-weight: 600;
+  font-size: 6.5rem;
+  text-transform: capitalize;
+  margin-top: -3.9rem;
+}
+
+.group-02 .detail-g02{
+  position: absolute;
+  top: 50rem;
+  right: 41rem;
+}
+
+.group-02 .detail{
+  width: 27rem;
+  height: 15rem;
+  font-size: 1.45rem;
+  line-height: 2.5rem;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(107, 68, 68);
+  opacity: 0.9;
+}
+.group-02 .read-more{
+  top: 50rem;
+  right: 50rem;
+  color: rgb(41, 223, 230);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 0.08rem;
+  cursor: pointer;
+}
+
+.group-02 .read-more:hover{
+  color: rgb(24, 175, 175);
+}
+
+/*Group-03*/
+.group-03 .inner-bg{
+  z-index: 2;
+}
+
+.group-03 .background{
+  position: absolute;
+  width: 100%;
+  height: 28rem;
+  z-index: 1;
+  top: 75rem;
+}
+
+.group-03 .title-01{
+  position: absolute;
+  top: 82rem;
+  left: 48rem;
+}
+
+.group-03 .content-01{
+  position: absolute;
+  top: 90rem;
+  left: 29rem;
+  color: #fff;
+  text-align: center;
+  width: 60rem;
+  font-size: 1.7rem;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.group-03 .title-02{
+  position: absolute;
+  top: 111rem;
+  left: 18rem;
+}
+
+.group-03 .content-02{
+  position: absolute;
+  top: 114rem;
+  left: 18rem;
+  color: rgb(44, 13, 13);
+  text-align: left;
+  width: 38rem;
+  font-size: 1.4rem;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.7;
+  line-height: 2rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+.group-03 .btn{
+  position: absolute;
+  top: 124rem;
+  left: 18rem;
+  width: 14rem;
+  height: 3rem;
+  background-color: rgb(68, 135, 221);
+  border: none;
+  cursor: pointer;
+  transition: 0.5s all;
+  border-radius: 0.3rem;
+}
+.group-03 .btn a{
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.group-03 .btn:hover{
+  background-color: rgb(6, 94, 209);
+}
+
+.group-03 .dog{
+  position: absolute;
+  top: 106rem;
+  right: 13rem;
+}
+.group-03 .emotion{
+  position: absolute;
+  top: 110rem;
+  right: 11rem;
+}
+
+/*Group-04*/
+.group-04{
+  position: absolute;
+  background-color: rgb(245, 241, 248);
+  width: 100%;
+  height: 22rem;
+  z-index: 1;
+  top: 136rem;
+}
+.group-04 .inner-bg{
+  z-index: 2;
+}
+
+.group-04 input{
+  display: block;
+}
+
+.group-04 .dog{
+  position: absolute;
+  top: -6rem;
+  left: 50rem;
+}
+
+.group-04 .detail-g04{
+  display: flex;
+  justify-content: space-between;
+  width: 84%;
+  margin-left: 8%;
+  margin-top: 5rem;
+}
+
+.group-04 .detail-g04-01{
+  width: 23%;
+  height: 13rem;
+}
+.group-04 .detail-g04-01 input{
+  height: 2rem;
+  width: 22rem;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+  border-bottom: solid rgb(0, 0, 2) 0.1rem;
+  background-color: rgb(245, 241, 248);
+}
+
+.group-04 .detail-g04-01 .btn{
+  width: 20rem;
+  height: 3rem;
+  background-color: rgb(68, 135, 221);
+  border: none;
+  cursor: pointer;
+  transition: 0.5s all;
+  border-radius: 0.3rem;
+  margin-top: 2rem;
+}
+
+.group-04 .detail-g04-01 .btn a{
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.group-04 .detail-g04-01 .btn:hover{
+  background-color: rgb(6, 94, 209);
+}
+
+.group-04 .detail-g04-02{
+  width: 28%;
+  height: 13rem;
+}
+.group-04 .detail-g04-02 p{
+  height: 2rem;
+  width: 28rem;
+  font-size: 1.3rem;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.7;
+}
+
+.group-04 .detail-g04-02 .btn{
+  width: 14rem;
+  height: 3rem;
+  background-color: rgb(68, 135, 221);
+  border: none;
+  cursor: pointer;
+  transition: 0.5s all;
+  border-radius: 0.3rem;
+  margin-top: 1.5rem;
+}
+
+.group-04 .detail-g04-02 .btn a{
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.group-04 .detail-g04-02 .btn:hover{
+  background-color: rgb(6, 94, 209);
+}
+
+.group-04 .shape{
+  z-index: 3;
+  margin-left: 29.5rem;
+  margin-top: -8.5rem;
+}
+
+.group-04 .shape .shape-01{
+  margin-left: 0.5rem;
+}
+
+.group-04 .shape .shape-02{
+  margin-left: -0.7rem;
+}
+
+/*Group-05*/
+.group-05{
+  position: absolute;
+  width: 100%;
+  height: 30rem;
+  top: 158rem;
+}
+
+.group-05 .inner-bg{
+  z-index: 2;
+}
+.group-05 .foods{
+  position: absolute;
+  top: 10rem;
+  left: 22rem;
+}
+.group-05 .detail-g05{
+  position: absolute;
+  top: 15rem;
+  left: 56rem;
+}
+
+.group-05 .detail-g05 p{
+  height: 2rem;
+  width: 38rem;
+  font-size: 1.3rem;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.7;
+}
+
+.group-05 .detail-g05 .btn{
+  width: 18rem;
+  height: 3rem;
+  background-color: rgb(68, 135, 221);
+  border: none;
+  cursor: pointer;
+  transition: 0.5s all;
+  border-radius: 0.3rem;
+  margin-top: 1.5rem;
+}
+
+.group-05 .detail-g05 .btn a{
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.group-05 .detail-g05 .btn:hover{
+  background-color: rgb(6, 94, 209);
+}
+
+/*Group-06*/
+.footer{
+  width: 90%;
+  height: 40rem;
+  z-index: 1;
+  margin-top: 150rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.footer .inner-bg{
+  z-index: 2;
+}
+
+.footer .dog{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.footer .balloon{
+  position: absolute;
+  top: 4rem;
+  left: 48rem;
+}
+
+.footer .logo{
+  position: absolute;
+  top: 15rem;
+  left: 53rem;
+}
+
+.footer ul.menu-list{
+  position: absolute;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; 
+  top: 27rem;
+  right: 19rem;
+  width: 32.5rem;
+  height: 5rem;
+}
+
+.footer ul.menu-list li{
+  margin-right: 4.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2rem;
+  transition: 0.5s all;
+}
+.footer ul li:hover{
+  transform: scale(1.05);
+}
+.footer ul li a{
+  color: rgb(44, 13, 13);
+}
+
+.footer .channel-list{
+  position: absolute;
+  right: 5rem;
+  bottom: -5rem;
+  color: aqua;
+}
+
+.footer p{
+  position: absolute;
+  right: 26rem;
+  bottom: 1rem;
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1rem;
+}
+.footer ul {
+  list-style: none;
+}
+.footer ul.channel-list{
+  position: absolute;
+  right: 3rem;
+  bottom: 1rem;
+  display: inline-flex;
+}
+
+.footer ul.channel-list li{
+  margin-right: 1rem;
+}
+
+.footer ul.channel-list li i{
+  font-size: 2rem;
+  color: rgb(52, 52, 240);
+}
