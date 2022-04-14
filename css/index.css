@@ -1,3 +1,10 @@
+/*
+f : first
+s : second
+t : third
+fo : fourth
+*/
+
 body{
   margin: 0;
   padding: 0;
@@ -11,64 +18,64 @@ body{
   z-index: 0;
 }
 
-.group-01, .group-02{
+.group-header, .group-first{
   width: 100%;
 }
 
 img{
   object-fit: cover;
 }
-.group-01 .background{
+.group-header .background{
   width: 100%;
   height: 41.05rem;
   z-index: 1;
 }
-.group-01 .inner-bg{
+.group-header .inner-bg{
   z-index: 2;
 }
-.group-01 .logo{
+.group-header .logo{
   position: absolute;
   left: 4.5rem;
   top: 2.6rem;
   transition: 0.5s all;
 }
-.group-01 .logo:hover{
+.group-header .logo:hover{
   transform: scale(1.05);
 }
-.group-01 .foods{
+.group-header .foods{
   position: absolute;
   left: -2.3rem;
   top: 16rem;
 }
-.group-01 .bl-title{
+.group-header .bl-title{
   position: absolute;
   left: 42.5rem;
   top: 18rem;
 }
-.group-01 .dog{
+.group-header .dog{
   position: absolute;
   right: 0rem;
   top: 10.42rem;
 }
-.group-01 .emotion{
+.group-header .emotion{
   position: absolute;
   left: 40rem;
   top: 18rem;
 }
 
-.group-01 .sb-title-01{
+.group-header .sb-title-f{
   position: absolute;
   left: 46rem;
   top: 10rem;
 }
 
-.group-01 .sb-title-02{
+.group-header .sb-title-s{
   position: absolute;
   left: 46rem;
   top: 21rem;
 }
 
-.group-01 ul{
+.group-header ul{
   list-style: none;
   display: inline-flex;
   justify-content: space-between;
@@ -77,7 +84,7 @@ img{
   right: 4rem;
 }
 
-.group-01 ul li{
+.group-header ul li{
   margin-right: 4.5rem;
   font-size: 1.4rem;
   font-weight: 700;
@@ -86,7 +93,7 @@ img{
   letter-spacing: 0.2rem;
   transition: 0.5s all;
 }
-.group-01 ul li:hover{
+.group-header ul li:hover{
   transform: scale(1.05);
 }
 
@@ -95,34 +102,34 @@ a{
   color: #fff;
 }
 
-/*Group-02*/
-.group-02 .inner-bg{
+/*Group-01*/
+.group-first .inner-bg{
   z-index: 2;
 }
 
-.group-02 .dog-2{
+.group-first .dog{
   position: absolute;
   top: 48rem;
 }
 
-.group-02 .emotion{
+.group-first .emotion{
   position: absolute;
   top: 78rem;
   left: 5rem;
 }
-.group-02 .foods-2{
+.group-first .foods{
   position: absolute;
   top: 50rem;
   right: 4rem;
 }
 
-.group-02 .our-story{
+.group-first .our-story{
   position: absolute;
   left: 14rem;
   top: 49rem
 }
 
-.group-02 .our-story .our{
+.group-first .our-story .our{
   color: rgb(100, 34, 34);
   font-weight: 600;
   font-size: 2.8rem;
@@ -131,7 +138,7 @@ a{
   letter-spacing: 0.2rem;
 }
 
-.group-02 .our-story .story{
+.group-first .our-story .story{
   color: rgb(62, 160, 226);
   font-weight: 600;
   font-size: 6.5rem;
@@ -139,13 +146,13 @@ a{
   margin-top: -3.9rem;
 }
 
-.group-02 .detail-g02{
+.group-first .detail-g-f{
   position: absolute;
   top: 50rem;
   right: 41rem;
 }
 
-.group-02 .detail{
+.group-first .detail{
   width: 27rem;
   height: 15rem;
   font-size: 1.45rem;
@@ -155,7 +162,7 @@ a{
   color: rgb(107, 68, 68);
   opacity: 0.9;
 }
-.group-02 .read-more{
+.group-first .read-more{
   top: 50rem;
   right: 50rem;
   color: rgb(41, 223, 230);
@@ -165,16 +172,16 @@ a{
   cursor: pointer;
 }
 
-.group-02 .read-more:hover{
+.group-first .read-more:hover{
   color: rgb(24, 175, 175);
 }
 
-/*Group-03*/
-.group-03 .inner-bg{
+/*Group-02*/
+.group-second .inner-bg{
   z-index: 2;
 }
 
-.group-03 .background{
+.group-second .background{
   position: absolute;
   width: 100%;
   height: 28rem;
@@ -182,13 +189,13 @@ a{
   top: 75rem;
 }
 
-.group-03 .title-01{
+.group-second .title-f{
   position: absolute;
   top: 82rem;
   left: 48rem;
 }
 
-.group-03 .content-01{
+.group-second .content-f{
   position: absolute;
   top: 90rem;
   left: 29rem;
@@ -200,13 +207,13 @@ a{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.group-03 .title-02{
+.group-second .title-s{
   position: absolute;
   top: 111rem;
   left: 18rem;
 }
 
-.group-03 .content-02{
+.group-second .content-s{
   position: absolute;
   top: 114rem;
   left: 18rem;
@@ -224,7 +231,7 @@ a{
   text-decoration: none;
 }
 
-.group-03 .btn{
+.group-second .btn{
   position: absolute;
   top: 124rem;
   left: 18rem;
@@ -236,29 +243,29 @@ a{
   transition: 0.5s all;
   border-radius: 0.3rem;
 }
-.group-03 .btn a{
+.group-second .btn a{
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: 600;
 }
-.group-03 .btn:hover{
+.group-second .btn:hover{
   background-color: rgb(6, 94, 209);
 }
 
-.group-03 .dog{
+.group-second .dog{
   position: absolute;
   top: 106rem;
   right: 13rem;
 }
-.group-03 .emotion{
+.group-second .emotion{
   position: absolute;
   top: 110rem;
   right: 11rem;
 }
 
-/*Group-04*/
-.group-04{
+/*Group-03*/
+.group-third{
   position: absolute;
   background-color: rgb(245, 241, 248);
   width: 100%;
@@ -266,21 +273,21 @@ a{
   z-index: 1;
   top: 136rem;
 }
-.group-04 .inner-bg{
+.group-third .inner-bg{
   z-index: 2;
 }
 
-.group-04 input{
+.group-third input{
   display: block;
 }
 
-.group-04 .dog{
+.group-third .dog{
   position: absolute;
   top: -6rem;
   left: 50rem;
 }
 
-.group-04 .detail-g04{
+.group-third .detail-g-t{
   display: flex;
   justify-content: space-between;
   width: 84%;
@@ -288,11 +295,11 @@ a{
   margin-top: 5rem;
 }
 
-.group-04 .detail-g04-01{
+.group-third .detail-g-t-f{
   width: 23%;
   height: 13rem;
 }
-.group-04 .detail-g04-01 input{
+.group-third .detail-g-t-f input{
   height: 2rem;
   width: 22rem;
   font-size: 1.2rem;
@@ -303,7 +310,7 @@ a{
   background-color: rgb(245, 241, 248);
 }
 
-.group-04 .detail-g04-01 .btn{
+.group-third .detail-g-t-f .btn{
   width: 20rem;
   height: 3rem;
   background-color: rgb(68, 135, 221);
@@ -314,21 +321,21 @@ a{
   margin-top: 2rem;
 }
 
-.group-04 .detail-g04-01 .btn a{
+.group-third .detail-g-t-f .btn a{
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: 600;
 }
-.group-04 .detail-g04-01 .btn:hover{
+.group-third .detail-g-t-f .btn:hover{
   background-color: rgb(6, 94, 209);
 }
 
-.group-04 .detail-g04-02{
+.group-third .detail-g-t-s{
   width: 28%;
   height: 13rem;
 }
-.group-04 .detail-g04-02 p{
+.group-third .detail-g-t-s p{
   height: 2rem;
   width: 28rem;
   font-size: 1.3rem;
@@ -337,7 +344,7 @@ a{
   opacity: 0.7;
 }
 
-.group-04 .detail-g04-02 .btn{
+.group-third .detail-g-t-s .btn{
   width: 14rem;
   height: 3rem;
   background-color: rgb(68, 135, 221);
@@ -348,53 +355,53 @@ a{
   margin-top: 1.5rem;
 }
 
-.group-04 .detail-g04-02 .btn a{
+.group-third .detail-g-t-s .btn a{
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: 600;
 }
-.group-04 .detail-g04-02 .btn:hover{
+.group-third .detail-g-t-s .btn:hover{
   background-color: rgb(6, 94, 209);
 }
 
-.group-04 .shape{
+.group-third .shape{
   z-index: 3;
   margin-left: 29.5rem;
   margin-top: -8.5rem;
 }
 
-.group-04 .shape .shape-01{
+.group-third .shape .shape-f{
   margin-left: 0.5rem;
 }
 
-.group-04 .shape .shape-02{
+.group-third .shape .shape-s{
   margin-left: -0.7rem;
 }
 
-/*Group-05*/
-.group-05{
+/*Group-04*/
+.group-fourth{
   position: absolute;
   width: 100%;
   height: 30rem;
   top: 158rem;
 }
 
-.group-05 .inner-bg{
+.group-fourth .inner-bg{
   z-index: 2;
 }
-.group-05 .foods{
+.group-fourth .foods{
   position: absolute;
   top: 10rem;
   left: 22rem;
 }
-.group-05 .detail-g05{
+.group-fourth .detail-g-fo{
   position: absolute;
   top: 15rem;
   left: 56rem;
 }
 
-.group-05 .detail-g05 p{
+.group-fourth .detail-g-fo p{
   height: 2rem;
   width: 38rem;
   font-size: 1.3rem;
@@ -403,7 +410,7 @@ a{
   opacity: 0.7;
 }
 
-.group-05 .detail-g05 .btn{
+.group-fourth .detail-g-fo .btn{
   width: 18rem;
   height: 3rem;
   background-color: rgb(68, 135, 221);
@@ -414,17 +421,17 @@ a{
   margin-top: 1.5rem;
 }
 
-.group-05 .detail-g05 .btn a{
+.group-fourth .detail-g-fo .btn a{
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: 600;
 }
-.group-05 .detail-g05 .btn:hover{
+.group-fourth .detail-g-fo .btn:hover{
   background-color: rgb(6, 94, 209);
 }
 
-/*Group-06*/
+/*Group-footer*/
 .footer{
   width: 90%;
   height: 40rem;
