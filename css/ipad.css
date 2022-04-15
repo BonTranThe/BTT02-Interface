@@ -8,7 +8,6 @@
     max-width: 100%;
     min-width: 90%;
     height: 20%;
-    
   }
 
   .group-header img.logo{
@@ -30,6 +29,7 @@
     font-size: 88%;
     margin-right: -15%;
   }
+  
   .group-header img.foods{
     max-width: 35%;
     min-width: 25%;
@@ -184,11 +184,6 @@
     width: 50%;
     top: -10%;
     left: 20%;
-  }
-
-  .group-third .detail-g-t-s p{
-    max-width: 390%;
-    min-width: 360%;
   }
 
   .group-third .shape{

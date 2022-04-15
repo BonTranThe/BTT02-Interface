@@ -1,0 +1,509 @@
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+  .group-header{
+    width: 100%;
+  }
+
+  .group-header img.dog{
+    width: 31%;
+    top: 5.4%;
+  }
+
+  .group-header img.background{
+    max-width: 100%;
+    min-width: 90%;
+    height: 20%;
+  }
+
+  .group-header img.logo{
+    max-width: 25%;
+    min-width: 5%;
+    top: 0.8%;
+    left: 4%;
+  }
+  .group-header ul{
+    left: 31%;
+    top: 0.5%;
+    width: 62%;
+    height: 1.5%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .group-header ul li{
+    font-size: 92%;
+    margin-right: -15%;
+  }
+  
+  .group-header img.foods{
+    max-width: 35%;
+    min-width: 25%;
+    top: 7.5%;
+    left: 0.1%;
+  }
+
+  .group-header img.bl-title{
+    max-width: 30%;
+    min-width: 20%;
+    top: 7.5%;
+    left: 34%;
+  }
+
+  .group-header img.emotion{
+    max-width: 40%;
+    min-width: 30%;
+    top: 7%;
+    left: 30%;
+  }
+
+  .group-header img.sb-title-f{
+    max-width: 31%;
+    min-width: 32%;
+    top: 3%;
+    left: 37%;
+  }
+
+  .group-header img.sb-title-s{
+    max-width: 21%;
+    min-width: 11%;
+    top: 9.2%;
+    left: 38%;
+  }
+
+  .group-first img.dog{
+    max-width: 31%;
+    min-width: 18%;
+    top: 20.5%;
+  }  
+
+  .group-first .our-story{
+    top: 19.8%;
+    left: 11%;
+  }
+
+  .group-first .our-story .our{
+    font-size: 1.9rem;
+    margin-bottom: 3rem;
+  }
+
+  .group-first .our-story .story{
+    font-size: 4.2rem;
+  }
+
+  .group-first .detail-g-f{
+    right: 28%;
+    top: 19.5%;
+  }
+
+  .group-first .detail-g-f .detail{
+    font-size: 1.5rem;
+    max-width: 24rem;
+    min-width: 16rem;
+    line-height: 1.8rem;
+    height: 11.5rem;
+  }
+  .group-first img.foods{
+    right: 0%;
+    max-width: 30%;
+    min-width: 20%;
+    top: 20%;
+  }
+
+  .group-first .read-more{
+    position: absolute;
+    top: 113%;
+    left: 0%;
+    max-width: 40%;
+    min-width: 35%;
+  }
+  
+  .group-first img.emotion{
+    max-width: 16%;
+    min-width: 10%;
+    top: 33.5%;
+    left: 5%;
+  }
+
+  .group-second img.background{
+    width: 100%;
+    height: 10%;
+    top: 31.5%;
+  }
+
+  .group-second .title-f{
+    max-width: 35%;
+    min-width: 28%;
+    left: 34%;
+    top: 33.5%;
+    text-align: center;
+  }
+
+  .group-second .content-f{
+    font-size: 1.3rem;
+    max-width: 85%;
+    min-width: 75%;
+    left: 7%;
+    top: 37.5%;
+    text-align: center;
+  }
+
+
+  .group-second img.dog{
+    max-width: 30%;
+    min-width: 20%;
+    right: 7%;
+    top: 43.5%;
+  }
+
+  .group-second .emotion{
+    max-width: 8%;
+    min-width: 4%;
+    right: 3%;
+    top: 44%;
+  }
+
+  .group-second img.title-s{
+    max-width: 40%;
+    min-width: 30%;
+    left: 9%;
+    top: 46%;
+  }
+
+  .group-second .content-s{
+    max-width: 55%;
+    min-width: 45%;
+    left: 9%;
+    top: 48.5%;
+    font-size: 150%;
+  }
+
+  .group-second .btn{
+    max-width: 30%;
+    min-width: 20%;
+    left: 9%;
+    top: 54.5%;
+  }
+
+  .group-third{
+    width:100%;
+    height: 18rem;
+    top: 59%;
+  }
+
+  .group-third img.dog{
+    display: inline;
+    width: 20%;
+    top: -25%;
+    left: 41%;
+  }
+
+  .group-third .detail-g-t{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 79%;
+    top: -10%;
+    left: -3%;
+  }
+
+  .group-third .detail-g-t-s p{
+    font-size: 1.4rem;
+    max-width: 22rem;
+    min-width: 21rem;
+  }
+
+  .group-third .shape{
+    position: absolute;
+    top: 89%;
+    left: -10%;
+  }
+
+  .group-third .shape .shape-s{
+    margin-left: -0.56rem;
+  }
+
+  .group-fourth .foods{
+    left: 0%;
+    top: -98%;
+    max-width: 42%;
+    min-width: 32%;
+  }
+
+  .group-fourth .detail-g-fo{
+    left: 37%;
+    top: -84%;
+  }
+
+  .group-fourth .detail-g-fo img.title{
+    max-width: 90%;
+    min-width: 82%;
+  }
+
+  .group-fourth .detail-g-fo p{
+    max-width: 88%;
+    min-width: 78%;
+    font-size: 1.5rem;
+  }
+
+  .group-fourth .detail-g-fo .btn{
+    max-width: 39%;
+    min-width: 29%;
+    margin-top: 2rem;
+  }
+
+  .group-footer{
+    height: 23rem;
+    margin-top: 133rem;
+    margin-bottom: -7rem;
+  }
+
+  .group-footer .dog{
+    position: absolute;
+    width: 100%;
+    max-height: 105%;
+    min-height: 95%;
+    top: -46%;
+  }
+
+  .group-footer .balloon{
+    left: 45%;
+    top: -43%;
+    max-width: 30%;
+  }
+
+  .group-footer .logo{
+    left: 51%;
+    top: -19%;
+    max-width: 19%;
+    min-width: 9%;
+  }
+
+  .group-footer ul{
+    width: 100%;
+    left: 40%;
+  }
+
+  .group-footer p{
+    right: 21.5%;
+    top: 42%;
+    font-size: 85%;
+    height: 6%;
+  }
+
+  .group-footer .channel-list{
+    display: flex;
+    flex-wrap: wrap;
+    left: 76%;
+    top: 37%;
+    max-height: 17%;
+    min-height: 7%;
+    max-width: 24%;
+    min-width: 15%;
+  }
+
+  .group-footer ul.menu-list{
+    top: 20%;
+    left: 39%;
+    width: 1%;
+  }
+
+  .group-footer ul.menu-list li{
+    font-size: 90%;
+    max-width: 30%;
+    min-width: 21%;
+    margin-right: 3.5rem;
+    letter-spacing: 0.1rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px){
+  .group-header img.dog{
+    width: 30%;
+    top: 6.92%;
+  }
+
+  .group-header ul{
+    left: 28%;
+    top: 0.5%;
+    width: 62%;
+    height: 1.5%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .group-header ul li{
+    font-size: 110%;
+    margin-right: -11%;
+  }
+
+  .group-header img.foods{
+    max-width: 35%;
+    min-width: 25%;
+    top: 8.5%;
+    left: 0.1%;
+  }
+
+  .group-header img.bl-title{
+    max-width: 30%;
+    min-width: 20%;
+    top: 8.5%;
+    left: 34%;
+  }
+
+  .group-header img.emotion{
+    max-width: 38%;
+    min-width: 30%;
+    top: 8.5%;
+    left: 32%;
+  }
+
+  .group-header img.sb-title-f{
+    max-width: 30%;
+    min-width: 26%;
+    top: 3.5%;
+    left: 37%;
+  }
+
+  .group-header img.sb-title-s{
+    max-width: 21%;
+    min-width: 11%;
+    top: 10.2%;
+    left: 38%;
+  }
+
+  .group-second .content-f{
+    font-size: 1.3rem;
+    max-width: 85%;
+    min-width: 75%;
+    left: 12%;
+    top: 37.5%;
+  }
+
+  .group-second .title-f{
+    max-width: 35%;
+    min-width: 28%;
+    left: 37%;
+    top: 33.5%;
+    text-align: center;
+  }
+
+  .group-third{
+    width:100%;
+    height: 18rem;
+    top: 62%;
+  }
+
+  .group-third img.dog{
+    display: inline;
+    width: 20%;
+    top: -36%;
+    left: 41%;
+  }
+
+  .group-third .detail-g-t{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    top: -10%;
+    left: -3%;
+  }
+
+  .group-third .shape{
+    position: absolute;
+    top: 89%;
+    left: -7%;
+  }
+
+  .group-fourth .foods{
+    left: 6%;
+    top: -45%;
+    max-width: 42%;
+    min-width: 32%;
+  }
+
+  .group-fourth .detail-g-fo{
+    left: 37%;
+    top: -35%;
+  }
+
+  .group-fourth .detail-g-fo img.title{
+    max-width: 90%;
+    min-width: 82%;
+  }
+
+  .group-fourth .detail-g-fo p{
+    max-width: 88%;
+    min-width: 78%;
+    font-size: 1.5rem;
+  }
+
+  .group-fourth .detail-g-fo .btn{
+    max-width: 39%;
+    min-width: 29%;
+    margin-top: 4rem;
+  }
+
+  .group-footer{
+    height: 23rem;
+    margin-top: 130rem;
+    margin-bottom: -7rem;
+  }
+
+  .group-footer .dog{
+    position: absolute;
+    width: 100%;
+    max-height: 105%;
+    min-height: 95%;
+    top: -46%;
+  }
+
+  .group-footer .balloon{
+    left: 45%;
+    top: -43%;
+    max-width: 30%;
+  }
+
+  .group-footer .logo{
+    left: 51%;
+    top: -19%;
+    max-width: 19%;
+    min-width: 9%;
+  }
+
+  .group-footer ul{
+    width: 100%;
+    left: 40%;
+  }
+
+  .group-footer p{
+    right: 21.5%;
+    top: 42%;
+    font-size: 85%;
+    height: 6%;
+  }
+
+  .group-footer .channel-list{
+    display: flex;
+    flex-wrap: wrap;
+    left: 76%;
+    top: 37%;
+    max-height: 17%;
+    min-height: 7%;
+    max-width: 24%;
+    min-width: 15%;
+  }
+
+  .group-footer ul.menu-list{
+    top: 20%;
+    left: 39%;
+    width: 1%;
+  }
+
+  .group-footer ul.menu-list li{
+    font-size: 90%;
+    max-width: 30%;
+    min-width: 21%;
+    margin-right: 3.5rem;
+    letter-spacing: 0.1rem;
+  }
+}

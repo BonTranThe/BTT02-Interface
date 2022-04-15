@@ -1,0 +1,403 @@
+@media only screen and (max-width: 740px) {
+  .group-header{
+    width: 100%;
+  }
+
+  .group-header img.background{
+    max-width: 100%;
+    min-width: 90%;
+    height: 20%;
+  }
+
+  .group-header img.logo{
+    max-width: 25%;
+    min-width: 5%;
+    top: 0.6%;
+    left: 4%;
+  }
+  
+  .group-header ul{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 60%;
+    height: 1.5%;
+    left: 38%;
+    top: 0.1%;
+  }
+
+  .group-header ul li{
+    font-size: 60%;
+    letter-spacing: 0.1rem;
+    max-width: 78%;
+    min-width: 67%;
+    margin-left: -1rem;
+  }
+
+  .group-header img.foods{
+    max-width: 30%;
+    min-width: 20%;
+    top: 4.5%;
+    left: 0.1%;
+  }
+
+  .group-header img.bl-title{
+    max-width: 26%;
+    min-width: 16%;
+    top: 4.8%;
+    left: 36%;
+  }
+
+  .group-header img.emotion{
+    max-width: 37%;
+    min-width: 27%;
+    top: 5%;
+    left: 32%;
+  }
+
+  .group-header img.sb-title-f{
+    max-width: 25%;
+    min-width: 15%;
+    top: 3%;
+    left: 37%;
+  }
+
+  .group-header img.sb-title-s{
+    max-width: 19%;
+    min-width: 9%;
+    top: 5.5%;
+    left: 39%;
+  }
+
+  .group-first img.dog{
+    max-width: 31%;
+    min-width: 18%;
+    top: 12.5%;
+  }  
+
+  .group-first .detail-g-f{
+    right: 1%;
+    top: 10.5%;
+  }
+
+  .group-first .detail-g-f .detail{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    max-width: 15rem;
+    min-width: 11rem;
+    height: 11.5rem;
+  }
+
+  .group-first .read-more{
+    position: absolute;
+    top: 113%;
+    left: 0%;
+  }
+  .group-first img.foods{
+    display: none;
+  }
+
+  .group-first img.emotion{
+    max-width: 16%;
+    min-width: 10%;
+    top: 19.5%;
+    left: 5%;
+  }
+
+  .group-second img.background{
+    width: 100%;
+    height: 8%;
+    top: 25.8%;
+  }
+
+  .group-second .title-f{
+    max-width: 70%;
+    min-width: 50%;
+    left: 17%;
+    top: 27.8%;
+  }
+
+  .group-second .content-f{
+    display: none;
+  }
+
+  .group-second img.dog{
+    max-width: 35%;
+    min-width: 25%;
+    right: 7%;
+    top: 36.5%;
+  }
+
+  .group-second .emotion{
+    max-width: 10%;
+    min-width: 4%;
+    right: 3%;
+    top: 36%;
+  }
+
+  .group-second img.title-s{
+    max-width: 40%;
+    min-width: 30%;
+    left: 7%;
+    top: 35%;
+  }
+
+  .group-second .content-s{
+    font-size: 108%;
+    line-height: 1.7rem;
+    max-width: 55%;
+    min-width: 47%;
+    left: 7%;
+    top: 36%;
+  }
+
+  .group-second .btn{
+    max-width: 30%;
+    min-width: 20%;
+    left: 7%;
+    top: 46.5%;
+  }
+
+  .group-third{
+    width:100%;
+    height: 28rem;
+    top: 50%;
+  }
+
+  .group-third .dog{
+    display: none;
+  }
+
+  .group-fourth .foods{
+    display: none;
+  }
+
+  .group-fourth .detail-g-fo{
+    left: 5%;
+    top: -217%;
+  }
+
+  .group-fourth .detail-g-fo .btn{
+    max-width: 39%;
+    min-width: 29%;
+    margin-top: 5rem;
+  }
+
+  .group-footer{
+    height: 10rem;
+    margin-top: 104rem;
+    margin-bottom: -3.5rem;
+  }
+
+  .group-footer .dog{
+    position: absolute;
+    width: 100%;
+    max-height: 105%;
+    min-height: 95%;
+    top: -46%;
+  }
+
+  .group-footer .balloon{
+    left: 45%;
+    top: -43%;
+    max-width: 30%;
+  }
+
+  .group-footer .logo{
+    left: 51%;
+    top: -19%;
+    max-width: 19%;
+    min-width: 9%;
+  }
+
+  .group-footer ul{
+    width: 100%;
+    left: 40%;
+  }
+
+  .group-footer p{
+    font-size: 57%;
+    height: 6%;
+    right: 1%;
+    top: 39%;
+  }
+
+  .group-footer ul.menu-list{
+    display: none;
+  }
+
+  .group-footer ul.menu-list li{
+    font-size: 90%;
+    letter-spacing: 0.1rem;
+    max-width: 30%;
+    min-width: 21%;
+    margin-right: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 740px){
+  .group-header img.dog{
+    width: 25%;
+    top: 4.05%;
+  }
+
+  .group-first .our-story{
+    top: 10.5%;
+    left: 7%;
+  }
+
+  .group-first .our-story .our{
+    font-size: 1.1rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .group-first .our-story .story{
+    font-size: 2.6rem;
+  }
+
+  .group-third .detail-g-t{
+    display: block;
+    position: absolute;
+    width: 84%;
+    top: -10%;
+    left: 0%;
+  }
+
+  .group-third .detail-g-t-f img.title-f{
+    max-width: 440%;
+  }
+
+  .group-third .detail-g-t-f input{
+    max-width: 440%;
+  }
+
+  .group-third .detail-g-t-s p{
+    font-size: 1.1rem;
+    max-width: 340%;
+    min-width: 300%;
+  }
+
+  .group-third .detail-g-t-s .title-s{
+    max-width: 360%;
+  }
+
+  .group-third .shape{
+    display: none;
+  }
+
+  .group-fourth .detail-g-fo img.title{
+    max-width: 56%;
+    min-width: 46%;
+  }
+
+  .group-fourth .detail-g-fo p{
+    max-width: 56%;
+    min-width: 46%;
+  }
+
+  .group-footer .channel-list{
+    display: flex;
+    flex-wrap: wrap;
+    left: 77%;
+    top: -50%;
+    max-height: 17%;
+    min-height: 7%;
+    max-width: 36%;
+    min-width: 34%;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 740px){
+  .group-header img.dog{
+    width: 25%;
+    top: 4.5%;
+  }
+
+  .group-first .our-story{
+    top: 9.8%;
+    left: 7%;
+  }
+
+  .group-first .our-story .our{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .group-first .our-story .story{
+    font-size: 3.5rem;
+  }
+
+  .group-third .detail-g-t{
+    display: block;
+    position: absolute;
+    width: 86%;
+    top: -10%;
+    left: 0%;
+  }
+
+  .group-third .detail-g-t-s p{
+    font-size: 1.1rem;
+    max-width: 340%;
+    min-width: 300%;
+  }
+
+  .group-third .shape{
+    display: none;
+  }
+
+  .group-fourth .detail-g-fo img.title{
+    max-width: 62%;
+    min-width: 52%;
+  }
+
+  .group-fourth .detail-g-fo p{
+    max-width: 61%;
+    min-width: 51%;
+  }
+
+  .group-footer .channel-list{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 17%;
+    min-height: 7%;
+    max-width: 36%;
+    min-width: 34%;
+    left: 69%;
+    top: -50%;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 740px){
+  .group-header img.dog{
+    width: 25%;
+    top: 4.2%;
+  }
+
+  .group-footer .channel-list{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 17%;
+    min-height: 7%;
+    max-width: 20%;
+    min-width: 19%;
+    left: 78%;
+    top: -50%;
+  }
+}
+
+@media only screen and (min-width: 395px) and (max-width: 740px){
+  .group-header img.dog{
+    width: 25%;
+    top: 4.45%;
+  }
+
+  .group-footer .channel-list{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 17%;
+    min-height: 7%;
+    max-width: 20%;
+    min-width: 19%;
+    left: 78%;
+    top: -50%;
+  }
+}
