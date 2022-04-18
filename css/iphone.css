@@ -387,7 +387,7 @@
 @media only screen and (min-width: 395px) and (max-width: 740px){
   .group-header img.dog{
     width: 25%;
-    top: 4.45%;
+    top: 4.54%;
   }
 
   .group-footer .channel-list{
@@ -399,5 +399,136 @@
     min-width: 19%;
     left: 78%;
     top: -50%;
+  }
+}
+
+
+@media only screen and (max-width: 320px){
+  .group-header img.dog{
+    width: 25%;
+    top: 3.5%;
+  }
+
+  .group-header ul{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 73%;
+    height: 1.5%;
+    left: 28%;
+    top: 0.1%;
+  }
+
+  .group-header ul li{
+    font-size: 60%;
+    letter-spacing: 0.1rem;
+    max-width: 78%;
+    min-width: 67%;
+    margin-left: -1rem;
+  }
+
+  .group-header img.bl-title{
+    max-width: 26%;
+    min-width: 18%;
+    top: 4%;
+    left: 36%;
+  }
+
+  .group-header img.emotion{
+    max-width: 37%;
+    min-width: 27%;
+    top: 4%;
+    left: 32%;
+  }
+
+  .group-header img.sb-title-f{
+    display: none;
+  }
+
+  .group-header img.sb-title-s{
+    max-width: 19%;
+    min-width: 9%;
+    top: 4.6%;
+    left: 39%;
+  }
+
+  .group-first .our-story{
+    top: 10.5%;
+    left: 2%;
+  }
+  .group-first img.dog{
+    display: none;
+  } 
+  .group-first img.emotion{
+    display: none;
+  }
+  .group-first .our-story .our{
+    font-size: 0.9rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .group-first .our-story .story{
+    font-size: 1.8rem;
+  }
+
+  .group-third .detail-g-t{
+    display: block;
+    position: absolute;
+    width: 84%;
+    top: -10%;
+    left: 0%;
+  }
+
+  .group-third .detail-g-t-f img.title-f{
+    max-width: 440%;
+  }
+
+  .group-third .detail-g-t-f input{
+    max-width: 440%;
+  }
+
+  .group-third .detail-g-t-s p{
+    font-size: 1.1rem;
+    max-width: 340%;
+    min-width: 300%;
+  }
+
+  .group-third .detail-g-t-s .title-s{
+    max-width: 360%;
+  }
+
+  .group-third .detail-g-t-f .btn{
+    max-width: 362%;
+  }
+
+  .group-third .shape{
+    display: none;
+  }
+
+  .group-fourth .detail-g-fo img.title{
+    max-width: 56%;
+    min-width: 46%;
+  }
+
+  .group-fourth .detail-g-fo p{
+    max-width: 50%;
+    min-width: 40%;
+  }
+
+  .group-footer .channel-list{
+    display: flex;
+    flex-wrap: wrap;
+    left: 73%;
+    top: -50%;
+    max-height: 17%;
+    min-height: 7%;
+    max-width: 36%;
+    min-width: 34%;
+  }
+
+  .group-footer p{
+    font-size: 45%;
+    height: 6%;
+    right: 1%;
+    top: 39%;
   }
 }
