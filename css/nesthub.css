@@ -3,26 +3,15 @@
     width: 100%;
   }
 
-  .group-header img.dog{
-    width: 31%;
-    top: 5.4%;
-  }
-
-  .group-header img.background{
-    max-width: 100%;
-    min-width: 90%;
-    height: 20%;
-  }
-
   .group-header img.logo{
     max-width: 25%;
     min-width: 5%;
-    top: 0.8%;
-    left: 4%;
+    top: 1rem;
+    left: 2rem;
   }
   .group-header ul{
-    left: 31%;
-    top: 0.5%;
+    left: 19rem;
+    top: 1rem;
     width: 62%;
     height: 1.5%;
     display: flex;
@@ -30,50 +19,15 @@
   }
 
   .group-header ul li{
-    font-size: 92%;
+    font-size: 0.85rem;
     margin-right: -15%;
-  }
-  
-  .group-header img.foods{
-    max-width: 35%;
-    min-width: 25%;
-    top: 7.5%;
-    left: 0.1%;
-  }
-
-  .group-header img.bl-title{
-    max-width: 30%;
-    min-width: 20%;
-    top: 7.5%;
-    left: 34%;
-  }
-
-  .group-header img.emotion{
-    max-width: 40%;
-    min-width: 30%;
-    top: 7%;
-    left: 30%;
-  }
-
-  .group-header img.sb-title-f{
-    max-width: 31%;
-    min-width: 32%;
-    top: 3%;
-    left: 37%;
-  }
-
-  .group-header img.sb-title-s{
-    max-width: 21%;
-    min-width: 11%;
-    top: 9.2%;
-    left: 38%;
   }
 
   .group-first img.dog{
     max-width: 31%;
     min-width: 18%;
     top: 20.5%;
-  }  
+  }
 
   .group-first .our-story{
     top: 19.8%;
@@ -95,12 +49,13 @@
   }
 
   .group-first .detail-g-f .detail{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     max-width: 24rem;
     min-width: 16rem;
     line-height: 1.8rem;
     height: 11.5rem;
   }
+
   .group-first img.foods{
     right: 0%;
     max-width: 30%;
@@ -115,7 +70,7 @@
     max-width: 40%;
     min-width: 35%;
   }
-  
+
   .group-first img.emotion{
     max-width: 16%;
     min-width: 10%;
@@ -173,7 +128,7 @@
     min-width: 45%;
     left: 9%;
     top: 48.5%;
-    font-size: 150%;
+    font-size: 1.3rem;
   }
 
   .group-second .btn{
@@ -206,7 +161,7 @@
   }
 
   .group-third .detail-g-t-s p{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     max-width: 22rem;
     min-width: 21rem;
   }
@@ -234,20 +189,20 @@
   }
 
   .group-fourth .detail-g-fo img.title{
-    max-width: 90%;
-    min-width: 82%;
+    max-width: 69%;
+    min-width: 67%;
   }
 
   .group-fourth .detail-g-fo p{
     max-width: 88%;
     min-width: 78%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .group-fourth .detail-g-fo .btn{
     max-width: 39%;
     min-width: 29%;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
   }
 
   .group-footer{
@@ -316,15 +271,6 @@
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1440px){
-  .group-header .background{
-    height: 37.05rem;
-  }
-
-  .group-header img.dog{
-    width: 30%;
-    top: 5.72%;
-  }
-
   .group-header ul{
     left: 28%;
     top: 0.5%;
@@ -339,60 +285,25 @@
     margin-right: -11%;
   }
 
-  .group-header img.foods{
-    max-width: 31%;
-    min-width: 25%;
-    top: 8.5%;
-    left: 0.1%;
-  }
-
-  .group-header img.bl-title{
-    max-width: 30%;
-    min-width: 20%;
-    top: 8.5%;
-    left: 34%;
-  }
-
-  .group-header img.emotion{
-    max-width: 38%;
-    min-width: 30%;
-    top: 8.5%;
-    left: 32%;
-  }
-
-  .group-header img.sb-title-f{
-    max-width: 30%;
-    min-width: 26%;
-    top: 3.5%;
-    left: 37%;
-  }
-
-  .group-header img.sb-title-s{
-    max-width: 21%;
-    min-width: 11%;
-    top: 10.2%;
-    left: 38%;
-  }
-
   .group-first img.dog{
     max-width: 26%;
     min-width: 18%;
-    top: 22.5%;
-  }  
+    top: 45rem;
+  }
 
   .group-first .foods{
-    top: 43rem;
+    top: 44.5rem;
     right: 1rem;
   }
 
   .group-first .our-story{
-    top: 21.5%;
-    left: 11%;
+    top: 44rem;
+    left: 10rem;
   }
 
   .group-first .detail-g-f{
-    right: 29%;
-    top: 23.5%;
+    right: 28rem;
+    top: 44rem;
   }
 
   .group-first img.emotion{
@@ -494,14 +405,14 @@
 
   .group-fourth .foods{
     left: 20%;
-    top: -81%;
+    top: -63%;
     max-width: 21%;
     min-width: 16%;
   }
 
   .group-fourth .detail-g-fo{
     left: 46%;
-    top: -75%;
+    top: -58%;
   }
 
   .group-fourth .detail-g-fo img.title{
@@ -510,9 +421,9 @@
   }
 
   .group-fourth .detail-g-fo p{
-    max-width: 80%;
+    max-width: 85%;
     min-width: 74%;
-    font-size: 1.3rem;
+    font-size: 1.45rem;
   }
 
   .group-fourth .detail-g-fo .btn{
