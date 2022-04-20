@@ -10,19 +10,19 @@
   }
 
   .group-header img.logo{
-    max-width: 25%;
-    min-width: 5%;
+    max-width: 30%;
+    min-width: 20%;
     top: 0.6%;
     left: 4%;
   }
-  
+
   .group-header ul{
     display: flex;
     flex-wrap: wrap;
     min-width: 60%;
     height: 1.5%;
     left: 38%;
-    top: 0.1%;
+    top: -0.2rem;
   }
 
   .group-header ul li{
@@ -40,39 +40,11 @@
     left: 0.1%;
   }
 
-  .group-header img.bl-title{
-    max-width: 26%;
-    min-width: 16%;
-    top: 4.8%;
-    left: 36%;
-  }
-
-  .group-header img.emotion{
-    max-width: 37%;
-    min-width: 27%;
-    top: 5%;
-    left: 32%;
-  }
-
-  .group-header img.sb-title-f{
-    max-width: 25%;
-    min-width: 15%;
-    top: 3%;
-    left: 37%;
-  }
-
-  .group-header img.sb-title-s{
-    max-width: 19%;
-    min-width: 9%;
-    top: 5.5%;
-    left: 39%;
-  }
-
   .group-first img.dog{
     max-width: 31%;
     min-width: 18%;
     top: 12.5%;
-  }  
+  }
 
   .group-first .detail-g-f{
     right: 1%;
@@ -80,17 +52,19 @@
   }
 
   .group-first .detail-g-f .detail{
-    font-size: 1rem;
+    font-size: 0.89rem;
     line-height: 1.5rem;
     max-width: 15rem;
     min-width: 11rem;
-    height: 11.5rem;
+    height: 9.5rem;
   }
 
   .group-first .read-more{
     position: absolute;
     top: 113%;
     left: 0%;
+    width: 8rem;
+    font-size: 1rem
   }
   .group-first img.foods{
     display: none;
@@ -104,16 +78,15 @@
   }
 
   .group-second img.background{
-    width: 100%;
     height: 8%;
-    top: 25.8%;
+    top: 30rem;
   }
 
   .group-second .title-f{
-    max-width: 70%;
-    min-width: 50%;
-    left: 17%;
-    top: 27.8%;
+    max-width: 59%;
+    min-width: 54%;
+    left: 24%;
+    top: 26.8%;
   }
 
   .group-second .content-f{
@@ -142,7 +115,7 @@
   }
 
   .group-second .content-s{
-    font-size: 108%;
+    font-size: 0.89rem;
     line-height: 1.7rem;
     max-width: 55%;
     min-width: 47%;
@@ -151,7 +124,7 @@
   }
 
   .group-second .btn{
-    max-width: 30%;
+    max-width: 50%;
     min-width: 20%;
     left: 7%;
     top: 46.5%;
@@ -161,10 +134,6 @@
     width:100%;
     height: 28rem;
     top: 50%;
-  }
-
-  .group-third .dog{
-    display: none;
   }
 
   .group-fourth .foods{
@@ -235,11 +204,6 @@
 }
 
 @media only screen and (min-width: 375px) and (max-width: 740px){
-  .group-header img.dog{
-    width: 25%;
-    top: 4.05%;
-  }
-
   .group-first .our-story{
     top: 10.5%;
     left: 7%;
@@ -263,21 +227,33 @@
   }
 
   .group-third .detail-g-t-f img.title-f{
-    max-width: 440%;
+    max-width: 300%;
   }
 
   .group-third .detail-g-t-f input{
-    max-width: 440%;
+    max-width: 300%;
+  }
+
+  .group-third .detail-g-t-f input::placeholder{
+    font-size: 1rem;
   }
 
   .group-third .detail-g-t-s p{
-    font-size: 1.1rem;
-    max-width: 340%;
-    min-width: 300%;
+    font-size: 0.89rem;
+    max-width: 249%;
+    min-width: 246%;
+  }
+
+  .group-third .dog{
+    display: inline;
+    top: 5rem;
+    left: 15rem;
+    max-width: 37%;
+    min-width: 35%;
   }
 
   .group-third .detail-g-t-s .title-s{
-    max-width: 360%;
+    max-width: 245%;
   }
 
   .group-third .shape{
@@ -335,7 +311,7 @@
   }
 
   .group-third .detail-g-t-s p{
-    font-size: 1.1rem;
+    font-size: 0.89rem;
     max-width: 340%;
     min-width: 300%;
   }
@@ -367,11 +343,6 @@
 }
 
 @media only screen and (min-width: 390px) and (max-width: 740px){
-  .group-header img.dog{
-    width: 25%;
-    top: 4.2%;
-  }
-
   .group-footer .channel-list{
     display: flex;
     flex-wrap: wrap;
@@ -382,85 +353,327 @@
     left: 78%;
     top: -50%;
   }
-}
 
-@media only screen and (min-width: 395px) and (max-width: 740px){
-  .group-header img.dog{
-    width: 25%;
-    top: 4.54%;
+  .group-fourth .detail-g-fo .btn{
+    width: 12rem;
   }
 
-  .group-footer .channel-list{
-    display: flex;
-    flex-wrap: wrap;
-    max-height: 17%;
-    min-height: 7%;
-    max-width: 20%;
-    min-width: 19%;
-    left: 78%;
-    top: -50%;
+  .group-fourth .detail-g-fo .btn .view-all{
+    font-size: 1rem;
   }
 }
 
+@media only screen and (max-width: 375px){
 
-@media only screen and (max-width: 320px){
-  .group-header img.dog{
-    width: 25%;
-    top: 3.5%;
+  .group-third .detail-g-t-f .btn{
+    max-width: 362%;
+  }
+
+  .group-third .detail-g-t-f .btn .view-all{
+    font-size: 1rem;
+  }
+
+  .group-third .detail-g-t-s .btn{
+    width: 10.5rem;
+  }
+  .group-third .detail-g-t-s .btn .learn-more{
+    font-size: 1rem;
+  }
+
+  .group-fourth .detail-g-fo{
+    left: 8.5rem;
+    top: -63rem;
+  }
+
+  .group-fourth .detail-g-fo .btn{
+    width: 12rem;
+  }
+
+  .group-fourth .detail-g-fo .btn .view-all{
+    font-size: 1rem;
+  }
+
+  .group-fourth .detail-g-fo img.title{
+    max-width: 36%;
+    min-width: 32%;
+  }
+
+  .group-fourth .detail-g-fo p{
+    max-width: 35%;
+    min-width: 32%;
+    font-size: 0.89rem;
+  }
+
+  .group-fourth img.foods{
+    display: inline;
+    top: -63rem;
+    left: -1.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 425px){
+  .group-header .clicks{
+    display: inline;
+  }
+  .group-header .clicks button.open{
+    position: absolute;
+    top: 0.7rem;
+    left: 23.8rem;
+  }
+
+  .group-header .clicks button.close{
+    position: absolute;
+    top: 0.7rem;
+    left: 23.9rem;
+    display: none;
   }
 
   .group-header ul{
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     min-width: 73%;
     height: 1.5%;
-    left: 28%;
-    top: 0.1%;
+    line-height: 1rem;
+    left: 15.2rem;
+    top: 1rem;
+    display: none;
   }
 
   .group-header ul li{
     font-size: 60%;
     letter-spacing: 0.1rem;
-    max-width: 78%;
-    min-width: 67%;
+    max-width: 52%;
+    min-width: 48%;
+    margin-left: -1rem;
+    background-color: rgb(71, 99, 107);
+    margin-top: 0.1rem;
+    text-align: center;
+    transition: 0.5s all;
+    border-radius: 0.2rem;
+  }
+
+  .group-header ul li:hover{
+    background-color: rgb(71, 99, 107);
+    transform: scale(1.1);
+  }
+
+  .group-header ul li.contact{
     margin-left: -1rem;
   }
 
-  .group-header img.bl-title{
-    max-width: 26%;
-    min-width: 18%;
-    top: 4%;
-    left: 36%;
+  .group-second .btn{
+    width: 7rem;
+    height: 2.5rem;
+    top: 54rem;
   }
 
-  .group-header img.emotion{
-    max-width: 37%;
-    min-width: 27%;
-    top: 4%;
-    left: 32%;
+  .group-second .btn .learn-more{
+    font-size: 0.8rem;
   }
 
-  .group-header img.sb-title-f{
+
+  .group-third .detail-g-t-f .btn{
+    max-width: 10.5rem;
+    height: 2.5rem;
+  }
+
+  .group-third .detail-g-t-f .btn .view-all{
+    font-size: 0.8rem;
+  }
+
+  .group-third .detail-g-t-s .btn{
+    width: 8rem;
+    height: 2.5rem;
+  }
+
+  .group-third .dog{
+    display: inline;
+    top: 5rem;
+    left: 18rem;
+    max-width: 36%;
+    min-width: 30%;
+  }
+
+  .group-third .detail-g-t-s p{
+    font-size: 0.89rem;
+    max-width: 254%;
+    min-width: 246%;
+  }
+
+  .group-third .detail-g-t-s .btn .learn-more{
+    font-size: 0.8rem;
+  }
+
+  .group-fourth .detail-g-fo{
+    left: 9rem;
+    top: -63rem;
+  }
+
+  .group-fourth .detail-g-fo img.title{
+    max-width: 36%;
+    min-width: 32%;
+  }
+
+  .group-fourth .detail-g-fo p{
+    max-width: 35%;
+    min-width: 32%;
+    font-size: 0.89rem;
+  }
+
+  .group-fourth img.foods{
+    display: inline;
+    top: -61.5rem;
+    left: -1.5rem;
+  }
+
+  .group-fourth .detail-g-fo .btn{
+    width: 10rem;
+    height: 2.5rem;
+  }
+
+  .group-fourth .detail-g-fo .btn .view-all{
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 395px) and (max-width: 740px){
+  .group-footer .channel-list{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 17%;
+    min-height: 7%;
+    max-width: 20%;
+    min-width: 19%;
+    left: 78%;
+    top: -50%;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .group-header .clicks{
+    display: inline;
+  }
+  .group-header .clicks button.open{
+    position: absolute;
+    top: 0.5rem;
+    left: 20.6rem;
+  }
+
+  .group-header .clicks button.close{
+    position: absolute;
+    top: 0.5rem;
+    left: 20.7rem;
     display: none;
   }
 
-  .group-header img.sb-title-s{
-    max-width: 19%;
-    min-width: 9%;
-    top: 4.6%;
-    left: 39%;
+  .group-header ul{
+    display: block;
+    min-width: 73%;
+    height: 1.5%;
+    line-height: 1rem;
+    left: 13.2rem;
+    top: 0.8rem;
+    display: none;
+  }
+
+  .group-header ul li{
+    font-size: 60%;
+    letter-spacing: 0.1rem;
+    max-width: 52%;
+    min-width: 48%;
+    margin-left: -1rem;
+    background-color: rgb(71, 99, 107);
+    margin-top: 0.1rem;
+    text-align: center;
+    transition: 0.5s all;
+    border-radius: 0.2rem;
+  }
+
+  .group-header ul li:hover{
+    background-color: rgb(71, 99, 107);
+    transform: scale(1.1);
+  }
+
+  .group-header ul li.contact{
+    margin-left: -1rem;
+  }
+
+  .group-third .dog{
+    display: inline;
+    top: 5rem;
+    left: 16rem;
+    max-width: 36%;
+    min-width: 30%;
+  }
+}
+
+
+@media only screen and (max-width: 320px){
+  .group-header .clicks{
+    display: inline;
+  }
+  .group-header .clicks button.open{
+    position: absolute;
+    top: 0.5rem;
+    left: 17rem;
+  }
+
+  .group-header .clicks button.close{
+    position: absolute;
+    top: 0.5rem;
+    left: 17.1rem;
+    display: none;
+  }
+
+  .group-header ul{
+    display: block;
+    min-width: 73%;
+    height: 1.5%;
+    line-height: 1rem;
+    left: 10.9rem;
+    top: 0.8rem;
+    display: none;
+  }
+
+  .group-header ul li{
+    font-size: 60%;
+    letter-spacing: 0.1rem;
+    max-width: 52%;
+    min-width: 48%;
+    margin-left: -1rem;
+    background-color: rgb(71, 99, 107);
+    margin-top: 0.1rem;
+    text-align: center;
+    transition: 0.5s all;
+    border-radius: 0.2rem;
+  }
+
+  .group-header ul li:hover{
+    background-color: rgb(71, 99, 107);
+    transform: scale(1.1);
+  }
+
+  .group-header ul li.contact{
+    margin-left: -1rem;
   }
 
   .group-first .our-story{
     top: 10.5%;
     left: 2%;
   }
+
   .group-first img.dog{
-    display: none;
-  } 
-  .group-first img.emotion{
-    display: none;
+    display: inline;
+    width: 23%;
+    top: 16rem;
   }
+
+  .group-first img.emotion{
+    display: inline;
+    top: 21rem;
+    width: 14%;
+  }
+
   .group-first .our-story .our{
     font-size: 0.9rem;
     margin-bottom: 3.6rem;
@@ -468,6 +681,10 @@
 
   .group-first .our-story .story{
     font-size: 1.8rem;
+  }
+
+  .group-second .btn .learn-more{
+    font-size: 0.8rem;
   }
 
   .group-third .detail-g-t{
@@ -479,39 +696,85 @@
   }
 
   .group-third .detail-g-t-f img.title-f{
-    max-width: 440%;
+    max-width: 300%;
   }
 
   .group-third .detail-g-t-f input{
-    max-width: 440%;
+    max-width: 300%;
+  }
+
+  .group-third .detail-g-t-f input::placeholder{
+    font-size: 1rem;
   }
 
   .group-third .detail-g-t-s p{
-    font-size: 1.1rem;
-    max-width: 340%;
-    min-width: 300%;
+    font-size: 0.89rem;
+    max-width: 249%;
+    min-width: 246%;
+  }
+
+  .group-third .dog{
+    display: inline;
+    top: 5rem;
+    left: 12rem;
+    max-width: 37%;
+    min-width: 35%;
   }
 
   .group-third .detail-g-t-s .title-s{
-    max-width: 360%;
+    max-width: 245%;
   }
 
   .group-third .detail-g-t-f .btn{
-    max-width: 362%;
+    max-width: 10.5rem;
+    height: 2.5rem;
+  }
+
+  .group-third .detail-g-t-f .btn .view-all{
+    font-size: 0.8rem;
+  }
+
+  .group-third .detail-g-t-s .btn{
+    width: 7rem;
+  }
+
+  .group-third .detail-g-t-s .btn .learn-more{
+    font-size: 0.8rem;
   }
 
   .group-third .shape{
     display: none;
   }
 
+  .group-fourth .detail-g-fo{
+    left: 5.7rem;
+    top: -65rem;
+  }
+
   .group-fourth .detail-g-fo img.title{
-    max-width: 56%;
-    min-width: 46%;
+    max-width: 36%;
+    min-width: 32%;
   }
 
   .group-fourth .detail-g-fo p{
-    max-width: 50%;
-    min-width: 40%;
+    max-width: 35%;
+    min-width: 32%;
+    font-size: 0.89rem;
+  }
+
+  .group-fourth img.foods{
+    display: inline;
+    top: -63rem;
+    left: -1.5rem;
+  }
+
+  .group-fourth .detail-g-fo .btn{
+    width: 10rem;
+    height: 2.5rem;
+  }
+
+  .group-fourth .detail-g-fo .btn .view-all{
+    font-size: 0.8rem;
   }
 
   .group-footer .channel-list{

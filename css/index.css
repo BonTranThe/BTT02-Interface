@@ -36,9 +36,24 @@ img{
 
 .group-header .background{
   width: 100%;
-  height: 41.05rem;
+  height: 100%;
   z-index: 1;
 }
+
+.group-header .clicks{
+  display: none;
+}
+
+.group-header .clicks button{
+  background-color: rgb(71, 99, 107);
+  color: #fff;
+  transition: 0.5s all;
+}
+
+.group-header .clicks button:hover{
+  background-color: rgb(44, 103, 119);
+}
+
 .group-header .inner-bg{
   z-index: 2;
 }
@@ -48,40 +63,15 @@ img{
   top: 2.6rem;
   transition: 0.5s all;
 }
+
 .group-header .logo:hover{
   transform: scale(1.05);
 }
+
 .group-header .foods{
   position: absolute;
   left: -2.3rem;
   top: 16rem;
-}
-.group-header .bl-title{
-  position: absolute;
-  left: 42.5rem;
-  top: 18rem;
-}
-.group-header .dog{
-  position: absolute;
-  right: 0rem;
-  top: 10.42rem;
-}
-.group-header .emotion{
-  position: absolute;
-  left: 40rem;
-  top: 18rem;
-}
-
-.group-header .sb-title-f{
-  position: absolute;
-  left: 46rem;
-  top: 10rem;
-}
-
-.group-header .sb-title-s{
-  position: absolute;
-  left: 46rem;
-  top: 21rem;
 }
 
 .group-header ul{
@@ -108,6 +98,7 @@ img{
 .group-header ul li.contact{
   margin-left: -1.2rem;
 }
+
 .group-header ul li:hover{
   transform: scale(1.05);
 }
@@ -127,24 +118,24 @@ a{
 
 .group-first .dog{
   position: absolute;
-  top: 48rem;
+  top: 58rem;
 }
 
 .group-first .emotion{
   position: absolute;
-  top: 78rem;
+  top: 88rem;
   left: 5rem;
 }
 .group-first .foods{
   position: absolute;
-  top: 50rem;
+  top: 58rem;
   right: 4rem;
 }
 
 .group-first .our-story{
   position: absolute;
-  left: 14rem;
-  top: 49rem
+  left: 12rem;
+  top: 58rem
 }
 
 .group-first .our-story .our{
@@ -166,7 +157,7 @@ a{
 
 .group-first .detail-g-f{
   position: absolute;
-  top: 50rem;
+  top: 58rem;
   right: 41rem;
 }
 
@@ -204,18 +195,18 @@ a{
   width: 100%;
   height: 28rem;
   z-index: 1;
-  top: 75rem;
+  top: 85rem;
 }
 
 .group-second .title-f{
   position: absolute;
-  top: 82rem;
+  top: 90rem;
   left: 48rem;
 }
 
 .group-second .content-f{
   position: absolute;
-  top: 90rem;
+  top: 99rem;
   left: 29rem;
   color: #fff;
   text-align: center;
@@ -227,13 +218,13 @@ a{
 
 .group-second .title-s{
   position: absolute;
-  top: 111rem;
+  top: 123rem;
   left: 18rem;
 }
 
 .group-second .content-s{
   position: absolute;
-  top: 114rem;
+  top: 126rem;
   left: 18rem;
   color: rgb(44, 13, 13);
   text-align: left;
@@ -251,7 +242,7 @@ a{
 
 .group-second .btn{
   position: absolute;
-  top: 124rem;
+  top: 135rem;
   left: 18rem;
   width: 14rem;
   height: 3rem;
@@ -261,6 +252,10 @@ a{
   transition: 0.5s all;
   border-radius: 0.3rem;
 }
+.group-second .btn .learn-more{
+  font-size: 1.3rem;
+}
+
 .group-second .btn a{
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
@@ -273,12 +268,12 @@ a{
 
 .group-second .dog{
   position: absolute;
-  top: 106rem;
+  top: 116rem;
   right: 13rem;
 }
 .group-second .emotion{
   position: absolute;
-  top: 110rem;
+  top: 116rem;
   right: 11rem;
 }
 
@@ -289,7 +284,7 @@ a{
   width: 100%;
   height: 22rem;
   z-index: 1;
-  top: 136rem;
+  top: 146rem;
 }
 .group-third .inner-bg{
   z-index: 2;
@@ -410,12 +405,12 @@ a{
 }
 .group-fourth .foods{
   position: absolute;
-  top: 10rem;
+  top: 19rem;
   left: 22rem;
 }
 .group-fourth .detail-g-fo{
   position: absolute;
-  top: 15rem;
+  top: 22rem;
   left: 56rem;
 }
 
@@ -454,7 +449,7 @@ a{
   width: 90%;
   height: 40rem;
   z-index: 1;
-  margin-top: 150rem;
+  margin-top: 144rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5rem;
@@ -488,7 +483,7 @@ a{
   position: absolute;
   list-style: none;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   top: 27rem;
   right: 19rem;
   min-width: 32.5rem;
@@ -545,5 +540,9 @@ a{
 
 .group-footer ul.channel-list li i{
   font-size: 2rem;
-  color: rgb(52, 52, 240);
+  color: rgb(68, 135, 221);
+}
+
+.hide{
+  display: none;
 }

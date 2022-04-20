@@ -1,24 +1,453 @@
 /* Ipdad Mini + Air width < 1080px */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 986px) {
   .group-header{
     width: 100%;
   }
 
-  .group-header img.background{
-    max-width: 100%;
-    min-width: 90%;
-    height: 20%;
+  .group-header .clicks{
+    display: none;
   }
 
   .group-header img.logo{
     max-width: 25%;
     min-width: 5%;
-    top: 0.8%;
-    left: 4%;
+    top: 1.5rem;
+    left: 1.5rem;
   }
   .group-header ul{
-    left: 48%;
-    top: 0.5%;
+    left: 19rem;
+    top: 0.5rem;
+    width: 62%;
+    height: 1.5%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .group-header ul li{
+    font-size: 88%;
+    margin-right: -15%;
+  }
+
+  .group-first img.dog{
+    max-width: 30%;
+    min-width: 18%;
+    top: 31rem;
+  }
+
+  .group-first .our-story{
+    top: 30rem;
+    left: 5.5rem;
+  }
+
+  .group-first .our-story .our{
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+  }
+
+  .group-first .our-story .story{
+    font-size: 3.2rem;
+  }
+
+  .group-first .detail-g-f{
+    right: 22rem;
+    top: 30rem;
+  }
+
+  .group-first .detail-g-f .detail{
+    font-size: 1rem;
+    min-width: 10rem;
+    max-width: 15rem;
+    line-height: 1.5rem;
+    height: 11.5rem;
+  }
+  .group-first img.foods{
+    right: 0.5rem;
+    max-width: 30%;
+    min-width: 20%;
+    top: 30rem;
+  }
+
+  .group-first img.emotion{
+    max-width: 14%;
+    min-width: 8%;
+    top: 51rem;
+    left: 5rem;
+  }
+
+  .group-second img.background{
+    height: 8%;
+    top: 49.5rem;
+  }
+
+  .group-second .title-f{
+    width: 33%;
+    left: 21rem;
+    top: 51rem;
+  }
+
+  .group-second .content-f{
+    font-size: 1.1rem;
+    max-width: 85%;
+    min-width: 75%;
+    left: 5rem;
+    top: 57rem;
+  }
+
+  .group-second img.dog{
+    max-width: 28%;
+    min-width: 25%;
+    right: 5rem;
+    top: 64rem;
+  }
+
+  .group-second .emotion{
+    max-width: 6%;
+    min-width: 4%;
+    right: 4rem;
+    top: 64rem;
+  }
+
+  .group-second img.title-s{
+    max-width: 30%;
+    min-width: 24%;
+    left: 5rem;
+    top: 68rem;
+  }
+
+  .group-second .content-s{
+    max-width: 55%;
+    min-width: 45%;
+    left: 5rem;
+    top: 70rem;
+    font-size: 108%;
+  }
+
+  .group-second .btn{
+    max-width: 30%;
+    min-width: 20%;
+    left: 5rem;
+    top: 76rem;
+  }
+
+  .group-third{
+    width:100%;
+    height: 28rem;
+    top: 86rem;
+  }
+
+  .group-third .dog{
+    display: inline;
+    top: 0.8rem;
+    left: 42rem;
+    width: 20%;
+  }
+
+  .group-third .detail-g-t{
+    display: block;
+    position: absolute;
+    width: 50%;
+    top: -10%;
+    left: 3%;
+  }
+
+  .group-third .detail-g-t-s p{
+    font-size: 1rem;
+    width: 22rem;
+    top: -10%;
+    left: 20%;
+  }
+  .group-third .shape{
+    position: absolute;
+    top: 53%;
+    left: -3rem;
+  }
+
+  .group-third .shape .shape-s{
+    margin-left: -0.56rem;
+  }
+
+  .group-fourth .foods{
+    left: 5rem;
+    top: -38rem;
+    max-width: 42%;
+    min-width: 32%;
+  }
+
+  .group-fourth .detail-g-fo{
+    left: 25rem;
+    top: -35rem;
+  }
+
+  .group-fourth .detail-g-fo img.title{
+    max-width: 70%;
+    min-width: 66%;
+  }
+
+  .group-fourth .detail-g-fo p{
+    max-width: 70%;
+    min-width: 60%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .group-fourth .detail-g-fo .btn{
+    max-width: 39%;
+    min-width: 29%;
+    margin-top: 2rem;
+  }
+
+  .group-footer{
+    height: 20rem;
+    margin-top: 124rem;
+    margin-bottom: -7rem;
+  }
+
+  .group-footer .dog{
+    position: absolute;
+    width: 100%;
+    max-height: 105%;
+    min-height: 95%;
+    top: -46%;
+  }
+
+  .group-footer .balloon{
+    left: 45%;
+    top: -43%;
+    max-width: 25%;
+  }
+
+  .group-footer .logo{
+    left: 27rem;
+    top: -3.8rem;
+    max-width: 16%;
+    min-width: 9%;
+  }
+
+  .group-footer ul{
+    width: 100%;
+    left: 40%;
+  }
+
+  .group-footer p{
+    right: 12rem;
+    top: 7.6rem;
+    font-size: 85%;
+    height: 6%;
+  }
+
+  .group-footer .channel-list{
+    display: flex;
+    flex-wrap: wrap;
+    left: 41rem;
+    top: 6.5rem;
+    max-height: 17%;
+    min-height: 7%;
+    max-width: 26%;
+    min-width: 12%;
+  }
+
+  .group-footer ul.menu-list{
+    top: 3rem;
+    left: 20rem;
+    width: 1%;
+  }
+
+  .group-footer ul.menu-list li{
+    font-size: 90%;
+    max-width: 30%;
+    min-width: 21%;
+    margin-right: 3.5rem;
+    letter-spacing: 0.1rem;
+  }
+}
+
+/* Ipdad Mini + Air width < 1080px */
+@media only screen and (max-width: 871px) {
+  .group-header ul{
+    left: 29rem;
+    top: 0.5rem;
+    width: 40%;
+    height: 1.5%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .group-header ul li{
+    font-size: 88%;
+    margin-right: -15%;
+    line-height: 2rem;
+  }
+
+  .group-first img.dog{
+    max-width: 30%;
+    min-width: 18%;
+    top: 28rem;
+  }
+
+  .group-first .our-story{
+    top: 28rem;
+    left: 5.5rem;
+  }
+
+  .group-first .our-story .our{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+
+  .group-first .our-story .story{
+    font-size: 3.1rem;
+  }
+
+  .group-first .detail-g-f{
+    right: 17rem;
+    top: 28rem;
+  }
+
+  .group-first .detail-g-f .detail{
+    font-size: 1rem;
+    min-width: 10rem;
+    max-width: 16rem;
+    line-height: 1.5rem;
+    height: 10.5rem;
+  }
+  .group-first img.foods{
+    right: 0rem;
+    max-width: 30%;
+    min-width: 20%;
+    top: 28rem;
+  }
+
+  .group-first img.emotion{
+    max-width: 16%;
+    min-width: 10%;
+    top: 45rem;
+    left: 2rem;
+  }
+
+  .group-second img.background{
+    height: 8%;
+    top: 44.8rem;
+  }
+
+  .group-second .title-f{
+    left: 19rem;
+    top: 47rem;
+  }
+
+  .group-second .content-f{
+    left: 5rem;
+    top: 52rem;
+  }
+
+  .group-second img.dog{
+    right: 3rem;
+    top: 60rem;
+  }
+
+  .group-second .emotion{
+    right: 2.5rem;
+    top: 60rem;
+  }
+
+  .group-second img.title-s{
+    top: 64rem;
+  }
+
+  .group-second .content-s{
+    top: 66rem;
+  }
+
+  .group-second .btn{
+    top: 72rem;
+  }
+
+  .group-third{
+    width:100%;
+    height: 28rem;
+    top: 50%;
+  }
+
+  .group-third .dog{
+    display: inline;
+    top: 0.5rem;
+    left: 38rem;
+    width: 23%;
+  }
+
+  .group-third .shape{
+    position: absolute;
+    left: -3.6rem;
+  }
+
+  .group-fourth .foods{
+    left: 2rem;
+    top: -42rem;
+  }
+
+  .group-fourth .detail-g-fo{
+    left: 22rem;
+    top: -39rem;
+  }
+
+  .group-fourth .detail-g-fo img.title{
+    max-width: 70%;
+    min-width: 60%;
+  }
+
+  .group-fourth .detail-g-fo p{
+    max-width: 70%;
+    min-width: 60%;
+  }
+
+  .group-footer .dog{
+    position: absolute;
+    width: 100%;
+    max-height: 105%;
+    min-height: 95%;
+    top: -46%;
+  }
+
+  .group-footer .logo{
+    left: 24.5rem;
+    top: -4rem;
+  }
+
+  .group-footer ul{
+    width: 100%;
+    left: 40%;
+  }
+
+  .group-footer p{
+    right: 19%;
+    top: 42%;
+  }
+
+  .group-footer .channel-list{
+    display: flex;
+    flex-wrap: wrap;
+    left: 82%;
+    top: 26%;
+    max-width: 22%;
+  }
+
+  .group-footer ul.menu-list{
+    top: 3rem;
+    left: 18rem;
+    width: 1%;
+  }
+}
+
+/* Ipdad Mini + Air width < 1080px */
+@media only screen and (max-width: 786px) {
+  .group-header img.logo{
+    max-width: 25%;
+    min-width: 5%;
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+  .group-header ul{
+    left: 23rem;
+    top: 0.5rem;
     width: 45%;
     height: 1.5%;
     display: flex;
@@ -29,65 +458,30 @@
     font-size: 88%;
     margin-right: -15%;
   }
-  
-  .group-header img.foods{
-    max-width: 35%;
-    min-width: 25%;
-    top: 5.5%;
-    left: 0.1%;
-  }
-
-  .group-header img.bl-title{
-    max-width: 30%;
-    min-width: 20%;
-    top: 6.5%;
-    left: 34%;
-  }
-
-  .group-header img.emotion{
-    max-width: 40%;
-    min-width: 30%;
-    top: 7%;
-    left: 30%;
-  }
-
-  .group-header img.sb-title-f{
-    max-width: 25%;
-    min-width: 15%;
-    top: 4%;
-    left: 37%;
-  }
-
-  .group-header img.sb-title-s{
-    max-width: 21%;
-    min-width: 11%;
-    top: 7.5%;
-    left: 38%;
-  }
 
   .group-first img.dog{
-    max-width: 31%;
+    max-width: 30%;
     min-width: 18%;
-    top: 15.5%;
-  }  
+    top: 25rem;
+  }
 
   .group-first .our-story{
-    top: 14.8%;
-    left: 11%;
+    top: 25rem;
+    left: 5.5rem;
   }
 
   .group-first .our-story .our{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 3rem;
   }
 
   .group-first .our-story .story{
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 
   .group-first .detail-g-f{
-    right: 32%;
-    top: 14.5%;
+    right: 15rem;
+    top: 23rem;
   }
 
   .group-first .detail-g-f .detail{
@@ -118,8 +512,7 @@
   }
 
   .group-second .title-f{
-    max-width: 32%;
-    min-width: 22%;
+    width: 35%;
     left: 34%;
     top: 25.5%;
   }
@@ -147,7 +540,7 @@
   }
 
   .group-second img.title-s{
-    max-width: 40%;
+    max-width: 34%;
     min-width: 30%;
     left: 9%;
     top: 37%;
@@ -175,21 +568,24 @@
   }
 
   .group-third .dog{
-    display: none;
+    display: inline;
+    top: 1rem;
+    left: 33rem;
+    width: 25%;
   }
 
   .group-third .detail-g-t{
     display: block;
     position: absolute;
     width: 50%;
-    top: -10%;
-    left: 20%;
+    top: -2.6rem;
+    left: 1rem;
   }
 
   .group-third .shape{
     position: absolute;
     top: 53%;
-    left: 9%;
+    left: -5rem;
   }
 
   .group-third .shape .shape-s{
@@ -286,21 +682,5 @@
     min-width: 21%;
     margin-right: 3.5rem;
     letter-spacing: 0.1rem;
-  }
-}
-
-/*Ipdad Mini*/
-@media only screen and (min-width: 740px) and (max-width: 1024px){
-  .group-header img.dog{
-    width: 30%;
-    top: 4.85%;
-  }
-}
-
-/*Ipad Air*/
-@media only screen and (min-width: 820px) and (max-width: 1080px){
-  .group-header img.dog{
-    width: 30%;
-    top: 5.15%;
   }
 }
