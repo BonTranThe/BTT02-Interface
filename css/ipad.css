@@ -4,6 +4,10 @@
     width: 100%;
   }
 
+  .group-header .clicks{
+    display: none;
+  }
+
   .group-header img.logo{
     max-width: 25%;
     min-width: 5%;
@@ -132,7 +136,10 @@
   }
 
   .group-third .dog{
-    display: none;
+    display: inline;
+    top: 0.8rem;
+    left: 42rem;
+    width: 20%;
   }
 
   .group-third .detail-g-t{
@@ -140,7 +147,7 @@
     position: absolute;
     width: 50%;
     top: -10%;
-    left: 20%;
+    left: 3%;
   }
 
   .group-third .detail-g-t-s p{
@@ -152,7 +159,7 @@
   .group-third .shape{
     position: absolute;
     top: 53%;
-    left: 9%;
+    left: -3rem;
   }
 
   .group-third .shape .shape-s{
@@ -268,6 +275,7 @@
   .group-header ul li{
     font-size: 88%;
     margin-right: -15%;
+    line-height: 2rem;
   }
 
   .group-first img.dog{
@@ -360,12 +368,15 @@
   }
 
   .group-third .dog{
-    display: none;
+    display: inline;
+    top: 0.5rem;
+    left: 38rem;
+    width: 23%;
   }
 
   .group-third .shape{
     position: absolute;
-    left: 5.6rem;
+    left: -3.6rem;
   }
 
   .group-fourth .foods{
@@ -557,21 +568,24 @@
   }
 
   .group-third .dog{
-    display: none;
+    display: inline;
+    top: 1rem;
+    left: 33rem;
+    width: 25%;
   }
 
   .group-third .detail-g-t{
     display: block;
     position: absolute;
     width: 50%;
-    top: -10%;
-    left: 20%;
+    top: -2.6rem;
+    left: 1rem;
   }
 
   .group-third .shape{
     position: absolute;
     top: 53%;
-    left: 9%;
+    left: -5rem;
   }
 
   .group-third .shape .shape-s{

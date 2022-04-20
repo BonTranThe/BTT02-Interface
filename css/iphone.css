@@ -10,8 +10,8 @@
   }
 
   .group-header img.logo{
-    max-width: 25%;
-    min-width: 5%;
+    max-width: 30%;
+    min-width: 20%;
     top: 0.6%;
     left: 4%;
   }
@@ -136,10 +136,6 @@
     top: 50%;
   }
 
-  .group-third .dog{
-    display: none;
-  }
-
   .group-fourth .foods{
     display: none;
   }
@@ -231,21 +227,33 @@
   }
 
   .group-third .detail-g-t-f img.title-f{
-    max-width: 440%;
+    max-width: 300%;
   }
 
   .group-third .detail-g-t-f input{
-    max-width: 440%;
+    max-width: 300%;
+  }
+
+  .group-third .detail-g-t-f input::placeholder{
+    font-size: 1rem;
   }
 
   .group-third .detail-g-t-s p{
-    font-size: 1.1rem;
-    max-width: 340%;
-    min-width: 300%;
+    font-size: 0.89rem;
+    max-width: 249%;
+    min-width: 246%;
+  }
+
+  .group-third .dog{
+    display: inline;
+    top: 5rem;
+    left: 15rem;
+    max-width: 37%;
+    min-width: 35%;
   }
 
   .group-third .detail-g-t-s .title-s{
-    max-width: 360%;
+    max-width: 245%;
   }
 
   .group-third .shape{
@@ -356,13 +364,6 @@
 }
 
 @media only screen and (max-width: 375px){
-  .group-fourth .detail-g-fo .btn{
-    width: 12rem;
-  }
-
-  .group-fourth .detail-g-fo .btn .view-all{
-    font-size: 1rem;
-  }
 
   .group-third .detail-g-t-f .btn{
     max-width: 362%;
@@ -378,27 +379,98 @@
   .group-third .detail-g-t-s .btn .learn-more{
     font-size: 1rem;
   }
+
+  .group-fourth .detail-g-fo{
+    left: 8.5rem;
+    top: -63rem;
+  }
+
+  .group-fourth .detail-g-fo .btn{
+    width: 12rem;
+  }
+
+  .group-fourth .detail-g-fo .btn .view-all{
+    font-size: 1rem;
+  }
+
+  .group-fourth .detail-g-fo img.title{
+    max-width: 36%;
+    min-width: 32%;
+  }
+
+  .group-fourth .detail-g-fo p{
+    max-width: 35%;
+    min-width: 32%;
+    font-size: 0.89rem;
+  }
+
+  .group-fourth img.foods{
+    display: inline;
+    top: -63rem;
+    left: -1.5rem;
+  }
 }
 
 
 @media only screen and (max-width: 425px){
+  .group-header .clicks{
+    display: inline;
+  }
+  .group-header .clicks button.open{
+    position: absolute;
+    top: 0.7rem;
+    left: 23.8rem;
+  }
+
+  .group-header .clicks button.close{
+    position: absolute;
+    top: 0.7rem;
+    left: 23.9rem;
+    display: none;
+  }
+
+  .group-header ul{
+    display: block;
+    min-width: 73%;
+    height: 1.5%;
+    line-height: 1rem;
+    left: 15.2rem;
+    top: 1rem;
+    display: none;
+  }
+
+  .group-header ul li{
+    font-size: 60%;
+    letter-spacing: 0.1rem;
+    max-width: 52%;
+    min-width: 48%;
+    margin-left: -1rem;
+    background-color: rgb(71, 99, 107);
+    margin-top: 0.1rem;
+    text-align: center;
+    transition: 0.5s all;
+    border-radius: 0.2rem;
+  }
+
+  .group-header ul li:hover{
+    background-color: rgb(71, 99, 107);
+    transform: scale(1.1);
+  }
+
+  .group-header ul li.contact{
+    margin-left: -1rem;
+  }
+
   .group-second .btn{
     width: 7rem;
     height: 2.5rem;
+    top: 54rem;
   }
 
   .group-second .btn .learn-more{
     font-size: 0.8rem;
   }
 
-  .group-fourth .detail-g-fo .btn{
-    width: 10rem;
-    height: 2.5rem;
-  }
-
-  .group-fourth .detail-g-fo .btn .view-all{
-    font-size: 0.8rem;
-  }
 
   .group-third .detail-g-t-f .btn{
     max-width: 10.5rem;
@@ -413,7 +485,53 @@
     width: 8rem;
     height: 2.5rem;
   }
+
+  .group-third .dog{
+    display: inline;
+    top: 5rem;
+    left: 18rem;
+    max-width: 36%;
+    min-width: 30%;
+  }
+
+  .group-third .detail-g-t-s p{
+    font-size: 0.89rem;
+    max-width: 254%;
+    min-width: 246%;
+  }
+
   .group-third .detail-g-t-s .btn .learn-more{
+    font-size: 0.8rem;
+  }
+
+  .group-fourth .detail-g-fo{
+    left: 9rem;
+    top: -63rem;
+  }
+
+  .group-fourth .detail-g-fo img.title{
+    max-width: 36%;
+    min-width: 32%;
+  }
+
+  .group-fourth .detail-g-fo p{
+    max-width: 35%;
+    min-width: 32%;
+    font-size: 0.89rem;
+  }
+
+  .group-fourth img.foods{
+    display: inline;
+    top: -61.5rem;
+    left: -1.5rem;
+  }
+
+  .group-fourth .detail-g-fo .btn{
+    width: 10rem;
+    height: 2.5rem;
+  }
+
+  .group-fourth .detail-g-fo .btn .view-all{
     font-size: 0.8rem;
   }
 }
@@ -431,22 +549,111 @@
   }
 }
 
+@media only screen and (max-width: 375px){
+  .group-header .clicks{
+    display: inline;
+  }
+  .group-header .clicks button.open{
+    position: absolute;
+    top: 0.5rem;
+    left: 20.6rem;
+  }
 
-@media only screen and (max-width: 320px){
+  .group-header .clicks button.close{
+    position: absolute;
+    top: 0.5rem;
+    left: 20.7rem;
+    display: none;
+  }
+
   .group-header ul{
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     min-width: 73%;
     height: 1.5%;
-    left: 28%;
-    top: -0.5rem;
+    line-height: 1rem;
+    left: 13.2rem;
+    top: 0.8rem;
+    display: none;
   }
 
   .group-header ul li{
     font-size: 60%;
     letter-spacing: 0.1rem;
-    max-width: 78%;
-    min-width: 67%;
+    max-width: 52%;
+    min-width: 48%;
+    margin-left: -1rem;
+    background-color: rgb(71, 99, 107);
+    margin-top: 0.1rem;
+    text-align: center;
+    transition: 0.5s all;
+    border-radius: 0.2rem;
+  }
+
+  .group-header ul li:hover{
+    background-color: rgb(71, 99, 107);
+    transform: scale(1.1);
+  }
+
+  .group-header ul li.contact{
+    margin-left: -1rem;
+  }
+
+  .group-third .dog{
+    display: inline;
+    top: 5rem;
+    left: 16rem;
+    max-width: 36%;
+    min-width: 30%;
+  }
+}
+
+
+@media only screen and (max-width: 320px){
+  .group-header .clicks{
+    display: inline;
+  }
+  .group-header .clicks button.open{
+    position: absolute;
+    top: 0.5rem;
+    left: 17rem;
+  }
+
+  .group-header .clicks button.close{
+    position: absolute;
+    top: 0.5rem;
+    left: 17.1rem;
+    display: none;
+  }
+
+  .group-header ul{
+    display: block;
+    min-width: 73%;
+    height: 1.5%;
+    line-height: 1rem;
+    left: 10.9rem;
+    top: 0.8rem;
+    display: none;
+  }
+
+  .group-header ul li{
+    font-size: 60%;
+    letter-spacing: 0.1rem;
+    max-width: 52%;
+    min-width: 48%;
+    margin-left: -1rem;
+    background-color: rgb(71, 99, 107);
+    margin-top: 0.1rem;
+    text-align: center;
+    transition: 0.5s all;
+    border-radius: 0.2rem;
+  }
+
+  .group-header ul li:hover{
+    background-color: rgb(71, 99, 107);
+    transform: scale(1.1);
+  }
+
+  .group-header ul li.contact{
     margin-left: -1rem;
   }
 
@@ -456,11 +663,15 @@
   }
 
   .group-first img.dog{
-    display: none;
+    display: inline;
+    width: 23%;
+    top: 16rem;
   }
 
   .group-first img.emotion{
-    display: none;
+    display: inline;
+    top: 21rem;
+    width: 14%;
   }
 
   .group-first .our-story .our{
@@ -485,21 +696,33 @@
   }
 
   .group-third .detail-g-t-f img.title-f{
-    max-width: 440%;
+    max-width: 300%;
   }
 
   .group-third .detail-g-t-f input{
-    max-width: 440%;
+    max-width: 300%;
+  }
+
+  .group-third .detail-g-t-f input::placeholder{
+    font-size: 1rem;
   }
 
   .group-third .detail-g-t-s p{
     font-size: 0.89rem;
-    max-width: 340%;
-    min-width: 300%;
+    max-width: 249%;
+    min-width: 246%;
+  }
+
+  .group-third .dog{
+    display: inline;
+    top: 5rem;
+    left: 12rem;
+    max-width: 37%;
+    min-width: 35%;
   }
 
   .group-third .detail-g-t-s .title-s{
-    max-width: 360%;
+    max-width: 245%;
   }
 
   .group-third .detail-g-t-f .btn{
@@ -514,6 +737,7 @@
   .group-third .detail-g-t-s .btn{
     width: 7rem;
   }
+
   .group-third .detail-g-t-s .btn .learn-more{
     font-size: 0.8rem;
   }
@@ -522,15 +746,26 @@
     display: none;
   }
 
+  .group-fourth .detail-g-fo{
+    left: 5.7rem;
+    top: -65rem;
+  }
+
   .group-fourth .detail-g-fo img.title{
-    max-width: 56%;
-    min-width: 46%;
+    max-width: 36%;
+    min-width: 32%;
   }
 
   .group-fourth .detail-g-fo p{
-    max-width: 50%;
-    min-width: 40%;
+    max-width: 35%;
+    min-width: 32%;
     font-size: 0.89rem;
+  }
+
+  .group-fourth img.foods{
+    display: inline;
+    top: -63rem;
+    left: -1.5rem;
   }
 
   .group-fourth .detail-g-fo .btn{

@@ -40,6 +40,20 @@ img{
   z-index: 1;
 }
 
+.group-header .clicks{
+  display: none;
+}
+
+.group-header .clicks button{
+  background-color: rgb(71, 99, 107);
+  color: #fff;
+  transition: 0.5s all;
+}
+
+.group-header .clicks button:hover{
+  background-color: rgb(44, 103, 119);
+}
+
 .group-header .inner-bg{
   z-index: 2;
 }
@@ -527,4 +541,8 @@ a{
 .group-footer ul.channel-list li i{
   font-size: 2rem;
   color: rgb(68, 135, 221);
+}
+
+.hide{
+  display: none;
 }
